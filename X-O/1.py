@@ -105,7 +105,7 @@ def CheckWin(player):
 	global list_ans;
 	flag = 1;
 	for i in list_ans:
-		if (i == "x") or (i == "o"):	
+		if (i == "X") or (i == "O"):	
 	#vertical
 			if (CheckVer(i,list_ans.index(i)) == True):
 				flag = 0;
